@@ -1,0 +1,25 @@
+body{
+  background: lightgrey;
+
+}
+.top{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: blue;
+  font-size: 30px;
+}
+.box{
+  border: 5px solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 600px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.des{
+  width:8%;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="AngWeather">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://code.angularjs.org/1.6.3/angular.min.js" charset="utf-8"></script>
+  <script src="app.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header class='top'>Weather App</header>
+<div ng-controller="controllerAngWeather">
+  <div class='box' >
+  <h1 class='city'>City: {{city}} </h1>
+  <h1 class='weather'>Weather Type: {{description}} </h1> <img class="des" ng-src="{{icon}}">
+  <h1 class='temp'>Temperature: {{display}}</h1>
+  <button ng-click='changeTemp()' class="btn">Change Temp</button>
+  </div>
+</div>
+
+</body>
+
+</html>
